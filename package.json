@@ -1,0 +1,35 @@
+{
+  "name": "MovieGuru",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "nachos-ui": "^0.2.0-beta.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-banner-carousel": "^1.0.3",
+    "react-native-card-view": "0.0.3",
+    "react-native-cards-slider": "^0.1.2",
+    "react-native-coverflow": "^0.1.7",
+    "react-native-elements": "^0.19.1",
+    "react-native-searchbar": "^1.15.0",
+    "react-native-simple-card-view": "^0.3.0",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-native-tab-view": "^1.0.2",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.4.1",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
